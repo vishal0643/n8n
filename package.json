@@ -1,0 +1,16 @@
+{
+  "name": "n8n-native-render",
+  "version": "1.0.0",
+  "description": "Natively hosting n8n with ffmpeg and yt-dlp on Render",
+  "main": "index.js",
+  "scripts": {
+    "build": "./build.sh",
+    "start": "export PATH=$PATH:$(pwd)/bin && n8n"
+  },
+  "dependencies": {
+    "n8n": "^1.77.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
