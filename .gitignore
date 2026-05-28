@@ -1,0 +1,10 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+
+# Local runtime binaries downloaded during build phase
+bin/
+
+# OS generated configuration files
+.DS_Store
+Thumbs.db
